@@ -10,7 +10,7 @@ interface User {
   address?: Address;
 }
 
-const mango = {
+const mango: User = {
 name: 'Mango',
 age: 30,
 email: 'john@example.com',
@@ -20,7 +20,7 @@ country: 'USA'
 }
 };
 
-const poly = {
+const poly: User = {
 name: 'Mango',
 age: 30,
 email: 'john@example.com'
